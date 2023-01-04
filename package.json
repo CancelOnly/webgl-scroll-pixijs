@@ -1,0 +1,22 @@
+{
+  "name": "scroll-webgl-threejs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Cancel",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/config-default": "^2.8.2",
+    "gsap": "^3.11.4",
+    "math-fit": "^1.0.1",
+    "pixi.js": "^7.0.5"
+  },
+  "devDependencies": {
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1"
+  },
+  "main": "main.js",
+  "description": ""
+}

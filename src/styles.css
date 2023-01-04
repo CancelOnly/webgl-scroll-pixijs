@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+canvas {
+  display: block;
+
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+    font-size: 8rem;
+    color: #fff;
+    white-space: nowrap;
+    mix-blend-mode: difference;
+    text-align: center;
+}
